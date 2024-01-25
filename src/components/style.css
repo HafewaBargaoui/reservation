@@ -1,0 +1,25 @@
+/* YourComponent.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.fullscreen-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-container {
+  background: #fff;
+}
+@media (max-width: 600px) {
+  .fullscreen-container {
+    /* Additional styles for small screens */
+  }
+}

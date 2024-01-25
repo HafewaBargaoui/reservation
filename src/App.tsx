@@ -1,10 +1,10 @@
-//import "./App.css";
-
+import Reservation from "./components/Reservation";
+import Container from "./components/styles/Container.styled";
 function App() {
   return (
-    <>
-      <p>test</p>
-    </>
+    <Container>
+      <Reservation />
+    </Container>
   );
 }
 
