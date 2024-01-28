@@ -5,9 +5,11 @@ const Container = styled.div`
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh; /* Use min-height instead of height */
   padding: 0 auto;
   margin: 0 auto;
+  overflow: hidden; /* Add this line */
+  padding-top: 40px;
 `;
 
 export default Container;
